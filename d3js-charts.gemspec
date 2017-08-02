@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["leavitals"]
   s.email       = ["leavitals@gmail.com"]
-  s.homepage    = "https://github.com/lvitals/d3js-charts.git"
+  s.homepage    = "https://github.com/lvitals/d3js-charts"
   s.summary     = "D3 for Rails Asset Pipeline"
   s.description = "This gem provides view helpers to create d3.js charts easily"
 

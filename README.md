@@ -1,4 +1,4 @@
-#d3-charts
+#d3js-charts
 
 Create your charts easy using d3.js library.
 This gem provides an opportunity to create [any](http://en.wikipedia.org/wiki/Chart#Types_of_charts) chart more easily!
@@ -6,7 +6,7 @@ This gem provides an opportunity to create [any](http://en.wikipedia.org/wiki/Ch
 
 ## Version
 
-d3-charts comes with version 4.10.0 of D3.js. and will track the always
+d3js-charts comes with version 3.3.7 of D3.js. and will track the always
 mirror the version of D3 it comes with.
 
 

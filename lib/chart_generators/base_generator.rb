@@ -28,7 +28,7 @@ class BaseGenerator
 
   def create_dir( f_name )
     type   = file_type(f_name)
-    d_path = "app/assets/#{type}/d3-charts"
+    d_path = "app/assets/#{type}/d3js-charts"
     make_dir( d_path )
     d_path
   end
@@ -56,7 +56,7 @@ class BaseGenerator
   end
 
   def gem_root
-    Gem::Specification.find_by_name('d3-charts').gem_dir
+    Gem::Specification.find_by_name('d3js-charts').gem_dir
   end
 
   def temp_path( type )
