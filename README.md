@@ -14,10 +14,10 @@ mirror the version of D3 it comes with.
 
 Add this line to your `Gemfile`:
 
-    gem "d3-charts"
+    gem "d3js-charts"
 
 Please note that D3 is provided via the asset pipeline and you do *not* need to copy their files into your application. 
-Rails will get them from d3-charts automatically.
+Rails will get them from d3js-charts automatically.
 
 Then add it to your manifest file, most probably at `app/assets/javascripts/application.js`:
 
