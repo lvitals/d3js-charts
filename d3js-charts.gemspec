@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary     = "D3 for Rails Asset Pipeline"
   s.description = "This gem provides view helpers to create d3.js charts easily"
 
-  s.required_rubygems_version = ">= 1.0.0"
+  s.required_rubygems_version = ">= 1.1.0"
   s.rubyforge_project         = "d3js-charts"
 
   s.add_dependency "railties", ">= 3.1"
