@@ -23,6 +23,10 @@ Then add it to your manifest file, most probably at `app/assets/javascripts/appl
 
     //= require d3
 
+and add to files sass `app/assets/javascripts/application.scss`:
+
+		@import "d3js-charts/*";
+
 
 ## Usage
 

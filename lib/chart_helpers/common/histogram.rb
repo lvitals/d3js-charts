@@ -2,7 +2,7 @@ module Histogram
 
     def histogram( data, element='.histogram' )
       HistogramGenerator.new.generate( element, data )
-      content_tag( :div, '', class: element[1..-1] )
+      content_tag( :div, '', class: "#{element[1..-1]}" )
     end
 
     # TODO

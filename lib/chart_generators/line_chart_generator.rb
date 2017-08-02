@@ -4,8 +4,8 @@ class LineChartGenerator < BaseGenerator
   #   element - div id or class for chart
   #   data - file with [ X , Y ] data table  
   def generate( element, data )
-    add_assets( 'line_chart'+element.to_s+'.js', js_code( element, data ) )
-    add_assets( 'line_chart'+element.to_s+'.css', css_code( element ) )   
+    add_assets( "#{element[1..-1]}"+'.js', js_code( element, data ) )
+    add_assets( "#{element[1..-1]}"+'.scss', css_code( element ) )   
   end
 
 end

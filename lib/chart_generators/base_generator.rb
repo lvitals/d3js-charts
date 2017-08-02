@@ -16,14 +16,14 @@ class BaseGenerator
 
   # get chart's css-code form template
   def css_code( element )
-    erb = ERB.new( temp_css )
+    erb = ERB.new( temp_scss )
     erb.result( binding )      
   end
 
   private 
 
   def file_type( f_name )
-    File.extname(f_name) == '.css' ? 'stylesheets' : 'javascripts'
+    File.extname(f_name) == '.scss' ? 'stylesheets' : 'javascripts'
   end
 
   def create_dir( f_name )
@@ -51,8 +51,8 @@ class BaseGenerator
     File.read temp_path('js')
   end
 
-  def temp_css
-    File.read temp_path('css')
+  def temp_scss
+    File.read temp_path('scss')
   end
 
   def gem_root
