@@ -25,7 +25,7 @@ Then add it to your manifest file, most probably at `app/assets/javascripts/appl
 
 and add to files sass `app/assets/javascripts/application.scss`:
 
-		@import "d3js-charts/*";
+		*= require_directory ./d3js-charts
 
 
 ## Usage
